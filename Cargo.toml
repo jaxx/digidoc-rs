@@ -1,0 +1,9 @@
+[package]
+name = "digidoc-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+filetime = "0.2.25"
+uuid = { version = "1.11.0", features = ["v4"] }
+url = "2.5.4"
